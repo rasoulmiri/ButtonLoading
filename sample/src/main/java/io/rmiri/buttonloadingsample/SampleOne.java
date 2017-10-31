@@ -44,7 +44,6 @@ public class SampleOne extends AppCompatActivity {
             @Override
             public void run() {
                 buttonLoading.setProgress(false);
-                Toast.makeText(SampleOne.this, "onStart", Toast.LENGTH_SHORT).show();
             }
         }, 5000);
     }

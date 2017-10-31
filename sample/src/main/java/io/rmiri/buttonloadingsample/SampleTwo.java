@@ -43,7 +43,6 @@ public class SampleTwo extends AppCompatActivity {
             @Override
             public void run() {
                 buttonLoading.setProgress(false);
-                Toast.makeText(SampleTwo.this, "onStart", Toast.LENGTH_SHORT).show();
             }
         }, 5000);
     }

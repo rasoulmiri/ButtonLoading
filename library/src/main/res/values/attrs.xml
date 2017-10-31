@@ -15,8 +15,8 @@
         <attr name="BL_textSize" format="dimension" />
         <attr name="BL_stateShow" format="integer">
             <enum name="normal" value="1" />
-            <enum name="progress" value="2" />
-            <enum name="animationStart" value="3" />
+            <enum name="animationStart" value="2" />
+            <enum name="progress" value="3" />
             <enum name="animationFinish" value="4" />
         </attr>
 
