@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"   android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="32dp">
+
+        <LinearLayout
+            android:id="@+id/bodyLy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Sample"
+                android:textSize="24sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/selector_bg_rectangle_radius_high_light_gray"
+                android:hint="Email"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:textColorHint="@color/textColorHint" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/selector_bg_rectangle_radius_high_light_gray"
+                android:hint="Password"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:textColorHint="@color/textColorHint" />
+
+        </LinearLayout>
+
+        <io.rmiri.buttonloading.CustomButtonLoading
+            android:id="@+id/buttonLoading"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/bodyLy"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            app:BL_backgroundColor="#80000000"
+            app:BL_circleColor="#00AFEF"
+            app:BL_circleColorSecond="#8000AFEF"
+            app:BL_enable="true"
+            app:BL_font="fonts/IRANSans_Light.ttf"
+            app:BL_stateShow="normal"
+            app:BL_text="Login"
+            app:BL_textColor="#FFFFFF"
+            app:BL_textSize="14sp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

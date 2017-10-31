@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#ffffff</color>
+    <color name="accentColor">#00AFEF</color>
+    <color name="windowBackgroundColor">#ffffff</color>
+    <!--===========================================================================-->
+    <!--base colors-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#444444</color>
+    <color name="textColorHint">#969494</color>
+    <!--===========================================================================-->
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--LoadingButton-->
+    <declare-styleable name="buttonLoading">
+
+        <attr name="BL_enable" format="boolean" />
+        <attr name="BL_idParent" format="integer" />
+        <attr name="BL_font" format="string" />
+        <attr name="BL_text" format="string" />
+        <attr name="BL_textColor" format="color" />
+        <attr name="BL_backgroundColor" format="color" />
+        <attr name="BL_circleColor" format="color" />
+        <attr name="BL_circleColorSecond" format="color" />
+        <attr name="BL_textSize" format="dimension" />
+        <attr name="BL_stateShow" format="integer">
+            <enum name="normal" value="1" />
+            <enum name="progress" value="2" />
+            <enum name="animationStart" value="3" />
+            <enum name="animationFinish" value="4" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
