@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/rasoulmiri/buttonloading.svg)](https://jitpack.io/#rasoulmiri/buttonloading)
 Minimum API 17
 <br/><br/>
-![Demo](https://raw.githubusercontent.com/rasoulmiri/ButtonLoading/master/demoFile/demo.gif)
+![Demo](https://raw.githubusercontent.com/rasoulmiri/ButtonLoading/master/demoFile/1.gif)
 
 <br/><br/>
 ## Usage:
