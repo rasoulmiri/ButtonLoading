@@ -32,7 +32,7 @@ import static io.rmiri.buttonloading.ButtonLoadingAttribute.STATE_PROGRESS;
  * Created by Rasoul Miri on 10/25/2017 .
  */
 
-public class CustomButtonLoading extends View {
+public class ButtonLoading extends View {
 
     private ButtonLoadingAttribute attribute = new ButtonLoadingAttribute();
     private OnButtonLoadingListener onButtonLoadingListener;
@@ -62,17 +62,17 @@ public class CustomButtonLoading extends View {
     ViewGroup.LayoutParams layoutParams;
     ImageButton buttonGetTouch;
 
-    public CustomButtonLoading(Context context) {
+    public ButtonLoading(Context context) {
         super(context);
         initView(context, null);
     }
 
-    public CustomButtonLoading(Context context, AttributeSet attrs) {
+    public ButtonLoading(Context context, AttributeSet attrs) {
         super(context, attrs);
         initView(context, attrs);
     }
 
-    public CustomButtonLoading(Context context, AttributeSet attrs, int defStyleAttr) {
+    public ButtonLoading(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView(context, attrs);
     }

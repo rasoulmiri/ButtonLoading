@@ -5,23 +5,23 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import io.rmiri.buttonloading.CustomButtonLoading;
+import io.rmiri.buttonloading.ButtonLoading;
 
 public class SampleTwo extends AppCompatActivity {
 
-    CustomButtonLoading customButtonLoading;
+    ButtonLoading buttonLoading;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample_2);
 
-        customButtonLoading = (CustomButtonLoading) findViewById(R.id.buttonLoading);
-        customButtonLoading.setOnButtonLoadingListener(new CustomButtonLoading.OnButtonLoadingListener() {
+        buttonLoading = (ButtonLoading) findViewById(R.id.buttonLoading);
+        buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListener() {
             @Override
             public void onClick() {
                 Toast.makeText(SampleTwo.this, "onClick", Toast.LENGTH_SHORT).show();
-                finishLoading(customButtonLoading);
+                finishLoading(buttonLoading);
             }
 
             @Override
@@ -37,7 +37,7 @@ public class SampleTwo extends AppCompatActivity {
 
     }
 
-    void finishLoading(final CustomButtonLoading buttonLoading) {
+    void finishLoading(final ButtonLoading buttonLoading) {
         //call setProgress(false) after 5 second
         new Handler().postDelayed(new Runnable() {
             @Override

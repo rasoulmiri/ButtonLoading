@@ -49,7 +49,7 @@
         </LinearLayout>
 
 
-        <io.rmiri.buttonloading.CustomButtonLoading
+        <io.rmiri.buttonloading.ButtonLoading
             android:id="@+id/buttonLoading"
             android:layout_width="match_parent"
             android:layout_height="48dp"
