@@ -83,6 +83,11 @@ buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListen
  * **BL_textColor** 
  * **BL_textSize**
  <br/><br/>
+ **Note: Do not use the button in LinearLayout.**
+  <br/><br/>
  ## Contributing
+ 
+ 
+
 
 You are welcome to contribute with issues, PRs or suggestions.
