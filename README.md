@@ -1,10 +1,10 @@
 # ButtonLoading
 [![](https://jitpack.io/v/rasoulmiri/buttonloading.svg)](https://jitpack.io/#rasoulmiri/buttonloading)
 Minimum API 17
+<br/><br/>
+![Demo](https://raw.githubusercontent.com/rasoulmiri/ButtonLoading/master/demoFile/demo.gif)
 
-![Demo](https://github.com/rasoulmiri/ButtonLoading/demoFile/demo.gif)
-
-
+<br/><br/>
 ## Usage:
 #### Step 1:
 
@@ -23,6 +23,7 @@ Add dependency in your app level build.gradle.
 	      compile 'com.github.rasoulmiri:buttonloading:v1.0.2'
 	}
 
+<br/><br/>
 #### Step 2:
 use in layout xml 
 
@@ -51,6 +52,7 @@ use in layout xml
     
 </RelativeLayout>
 ```
+<br/><br/>
 #### Step 3:
 
 ```java
@@ -71,7 +73,7 @@ buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListen
             }
 });
 ```
-
+<br/><br/>
 # Configure XML
  * **BL_backgroundColor** 
  * **BL_circleColor** color 
@@ -80,7 +82,7 @@ buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListen
  * **BL_text:** text button
  * **BL_textColor** 
  * **BL_textSize**
- 
+ <br/><br/>
  ## Contributing
 
 You are welcome to contribute with issues, PRs or suggestions.
