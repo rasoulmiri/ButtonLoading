@@ -55,7 +55,7 @@
             android:layout_below="@+id/bodyLy"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="36dp"
-            app:BL_backgroundColor="#80000000"
+            app:BL_backgroundColor="#80ffffff"
             app:BL_circleColor="#00AFEF"
             app:BL_circleColorSecond="#8000AFEF"
             app:BL_enable="true"
