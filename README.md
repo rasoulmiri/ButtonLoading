@@ -2,9 +2,8 @@
 [![](https://jitpack.io/v/rasoulmiri/buttonloading.svg)](https://jitpack.io/#rasoulmiri/buttonloading)
 Minimum API 17
 
-<br/><br/>
 ![Demo](https://github.com/rasoulmiri/ButtonLoading/demoFile/demo.gif)
-<br/><br/>
+
 
 ## Usage:
 #### Step 1:
@@ -25,7 +24,7 @@ Add dependency in your app level build.gradle.
 	}
 
 #### Step 2:
-use in xml 
+use in layout xml 
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,7 +51,26 @@ use in xml
     
 </RelativeLayout>
 ```
+#### Step 3:
 
+```java
+buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListener() {
+            @Override
+            public void onClick() {
+           	//...
+            }
+
+            @Override
+            public void onStart() {
+               //...
+            }
+
+            @Override
+            public void onFinish() {
+               //...
+            }
+});
+```
 
 # Configure XML
  * **BL_backgroundColor** 
