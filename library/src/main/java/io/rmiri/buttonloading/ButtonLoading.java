@@ -308,7 +308,8 @@ public class ButtonLoading extends View {
     void animationStart() {
 
         attribute.setStateShow(STATE_ANIMATION_START);
-        onButtonLoadingListener.onStart();
+        if (onButtonLoadingListener != null)
+            onButtonLoadingListener.onStart();
 
         ValueAnimator valueAnimatorLoading = ValueAnimator.ofInt(width, height);
         valueAnimatorLoading.setInterpolator(PathInterpolatorCompat.create(0.645f, 0.045f, 0.355f, 1f));
@@ -486,7 +487,8 @@ public class ButtonLoading extends View {
                 attribute.setStateShow(ButtonLoadingAttribute.STATE_NORMAL);
                 parentView.removeView(buttonGetTouch);
                 isNeedFinishAnimation = false;
-                onButtonLoadingListener.onFinish();
+                if (onButtonLoadingListener != null)
+                    onButtonLoadingListener.onFinish();
             }
 
             @Override
