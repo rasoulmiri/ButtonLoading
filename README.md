@@ -7,6 +7,9 @@ Minimum API 17
 ![Demo](https://raw.githubusercontent.com/rasoulmiri/ButtonLoading/master/demoFile/1.gif)
 
 <br/><br/>
+
+
+
 ## Usage:
 #### Step 1:
 
@@ -89,7 +92,20 @@ buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListen
   <br/><br/>
  ## Contributing
  
- 
-
 
 You are welcome to contribute with issues, PRs or suggestions.
+
+
+
+## Other Project Me
+
+# Skeleton Android
+Simple yet powerful skeleton animation for all view in android 
+<br/><br/>
+![alt tag](https://github.com/rasoulmiri/Skeleton/blob/master/demoFile/1.gif)
+<br/><br/>
+
+
+<br/>
+[](https://github.com/rasoulmiri/Skeleton)
+<br/>
