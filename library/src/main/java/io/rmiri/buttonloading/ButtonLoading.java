@@ -126,11 +126,9 @@ public class ButtonLoading extends View {
 
                     setProgress(true);
                     onButtonLoadingListener.onClick();
-                    parentView.addView(buttonGetTouch, layoutParams);//add view for disable touch children
                 }
             }
         });
-
     }
 
     @Override
@@ -298,6 +296,7 @@ public class ButtonLoading extends View {
             if (attribute.getStateShow() != ButtonLoadingAttribute.STATE_NORMAL)
                 return;
             animationStart();
+            parentView.addView(buttonGetTouch, layoutParams);//add view for disable touch children
         } else {
             if (attribute.getStateShow() == ButtonLoadingAttribute.STATE_NORMAL)
                 return;
@@ -536,7 +535,6 @@ public class ButtonLoading extends View {
     public boolean isLoadingState() {
         return attribute.getStateShow() != ButtonLoadingAttribute.STATE_NORMAL;
     }
-
 
     public interface OnButtonLoadingListener {
         void onClick();

@@ -22,7 +22,7 @@ public class SampleOne extends AppCompatActivity {
             @Override
             public void onClick() {
                 Toast.makeText(SampleOne.this, "onClick", Toast.LENGTH_SHORT).show();
-                finishLoading(buttonLoading);
+                finishLoading();
             }
 
             @Override
@@ -38,7 +38,7 @@ public class SampleOne extends AppCompatActivity {
 
     }
 
-    void finishLoading(final ButtonLoading buttonLoading) {
+    void finishLoading() {
         //call setProgress(false) after 5 second
         new Handler().postDelayed(new Runnable() {
             @Override
