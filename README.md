@@ -107,5 +107,5 @@ Simple yet powerful skeleton animation for all view in android
 
 
 <br/>
-[](https://github.com/rasoulmiri/Skeleton)
+[Repository](https://github.com/rasoulmiri/Skeleton)
 <br/>
