@@ -524,6 +524,14 @@ public class ButtonLoading extends View {
         }
     }
 
+    public void setText(String text) {
+        attribute.setText(text);
+    }
+
+    public  String getText(){
+        return attribute.getText();
+    }
+
     //==============================================================================================
     //listener
     public void setOnButtonLoadingListener(OnButtonLoadingListener onButtonLoadingListener) {
