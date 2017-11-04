@@ -49,7 +49,6 @@ use in layout xml
             app:BL_circleColor="#00AFEF"
             app:BL_circleColorSecond="#8000AFEF"
             app:BL_enable="true"
-            app:BL_font="fonts/IRANSans_Light.ttf"
             app:BL_stateShow="normal"
             app:BL_text="Login"
             app:BL_textColor="#FFFFFF"
@@ -88,6 +87,7 @@ buttonLoading.setOnButtonLoadingListener(new ButtonLoading.OnButtonLoadingListen
  * **BL_text:** text button
  * **BL_textColor** 
  * **BL_textSize**
+ * **BL_font:** address font in assets. example: file in assetst > fonts > arial.ttf  ==>  fonts/arial.ttf
  <br/><br/>
  **Note: Do not use the button in LinearLayout.**
   <br/><br/>
