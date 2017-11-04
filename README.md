@@ -2,6 +2,7 @@
 <br/><br/>
 Beautiful Fancy Button Loading<br/><br/>
 [![](https://jitpack.io/v/rasoulmiri/buttonloading.svg)](https://jitpack.io/#rasoulmiri/buttonloading)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Button%20Loading-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6394)
 Minimum API 17
 <br/><br/>
 ![Demo](https://raw.githubusercontent.com/rasoulmiri/ButtonLoading/master/demoFile/1.gif)
