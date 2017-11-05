@@ -529,6 +529,7 @@ public class ButtonLoading extends View {
         requestLayout();
     }
 
+
     public  String getText(){
         return attribute.getText();
     }
