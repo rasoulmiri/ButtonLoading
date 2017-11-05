@@ -526,6 +526,7 @@ public class ButtonLoading extends View {
 
     public void setText(String text) {
         attribute.setText(text);
+        requestLayout();
     }
 
     public  String getText(){
