@@ -21,6 +21,8 @@ public class ButtonLoadingAttribute {
     private int circleColor;
     private int circleColorSecond;
 
+    private int backgroundDisableColor;
+
     private int textSize;
 
     private int stateShow;
@@ -111,5 +113,13 @@ public class ButtonLoadingAttribute {
 
     public void setStateShow(int stateShow) {
         this.stateShow = stateShow;
+    }
+
+    public int getBackgroundDisableColor() {
+        return backgroundDisableColor;
+    }
+
+    public void setBackgroundDisableColor(int backgroundDisableColor) {
+        this.backgroundDisableColor = backgroundDisableColor;
     }
 }

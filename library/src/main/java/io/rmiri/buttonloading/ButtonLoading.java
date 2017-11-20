@@ -93,6 +93,7 @@ public class ButtonLoading extends View {
         attribute.setBackgroundColor(typedArray.getColor(R.styleable.buttonLoading_BL_backgroundColor, Color.parseColor("#80ffffff")));
         attribute.setCircleColor(typedArray.getColor(R.styleable.buttonLoading_BL_circleColor, Color.parseColor("#00AFEF")));
         attribute.setCircleColorSecond(typedArray.getColor(R.styleable.buttonLoading_BL_circleColorSecond, Color.parseColor("#8000AFEF")));
+        attribute.setBackgroundDisableColor(typedArray.getColor(R.styleable.buttonLoading_BL_backgroundDisableColor, Color.parseColor("#f2f2f2")));
         attribute.setTextSize(typedArray.getDimensionPixelSize(R.styleable.buttonLoading_BL_textSize, 14));
         attribute.setStateShow(typedArray.getInt(R.styleable.buttonLoading_BL_stateShow, ButtonLoadingAttribute.STATE_NORMAL));
         typedArray.recycle();
@@ -160,7 +161,11 @@ public class ButtonLoading extends View {
             case ButtonLoadingAttribute.STATE_NORMAL: {
 
                 //circle main
-                paint.setColor(attribute.getCircleColor());
+                if (attribute.isEnable()) {
+                    paint.setColor(attribute.getCircleColor());
+                } else {
+                    paint.setColor(attribute.getBackgroundDisableColor());
+                }
                 rect.set(0, 0, width, height);
                 canvas.drawRoundRect(rect, height / 2, height / 2, paint);
 
@@ -530,7 +535,7 @@ public class ButtonLoading extends View {
     }
 
 
-    public  String getText(){
+    public String getText() {
         return attribute.getText();
     }
 

@@ -12,6 +12,7 @@
         <attr name="BL_backgroundColor" format="color" />
         <attr name="BL_circleColor" format="color" />
         <attr name="BL_circleColorSecond" format="color" />
+        <attr name="BL_backgroundDisableColor" format="color" />
         <attr name="BL_textSize" format="dimension" />
         <attr name="BL_stateShow" format="integer">
             <enum name="normal" value="1" />
