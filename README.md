@@ -26,7 +26,7 @@ Add JitPack repository in your root build.gradle at the end of repositories.
 Add dependency in your app level build.gradle.
 
     dependencies {
-	      compile 'com.github.rasoulmiri:buttonloading:v1.0.4'
+	      compile 'com.github.rasoulmiri:buttonloading:v1.0.8'
 	}
 
 <br/><br/>
