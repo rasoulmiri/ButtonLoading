@@ -58,7 +58,7 @@
             app:BL_backgroundColor="#80000000"
             app:BL_circleColor="#00AFEF"   android:layout_marginTop="32dp"
             app:BL_circleColorSecond="#8000AFEF"
-            app:BL_enable="true"
+            app:BL_enable="false"
             app:BL_stateShow="normal"
             app:BL_text="Login"
             app:BL_textColor="#FFFFFF"

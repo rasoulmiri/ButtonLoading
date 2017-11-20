@@ -539,6 +539,17 @@ public class ButtonLoading extends View {
         return attribute.getText();
     }
 
+
+    public void setEnable(boolean isEnable) {
+
+        if (attribute.isEnable() == isEnable)
+            return;
+
+        attribute.setEnable(isEnable);
+        requestLayout();
+
+    }
+
     //==============================================================================================
     //listener
     public void setOnButtonLoadingListener(OnButtonLoadingListener onButtonLoadingListener) {
